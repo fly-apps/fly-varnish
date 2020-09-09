@@ -26,11 +26,11 @@ First, you'll need to use `flyctl` to create a new application. If you haven't a
 After that, [sign up](https://fly.io/docs/hands-on/sign-up/) or [sign in](https://fly.io/docs/hands-on/sign-in/) to your Fly account from your console:
 
 ```bash
-# Sign up flyctl
-auth signup
+# Sign up 
+flyctl auth signup
 
-# Or sign in flyctl
-auth login
+# Or sign in 
+flyctl auth login
 ```
 
 Running those commands opens a web page that allows you to log in by using your GitHub account or your email and password.
